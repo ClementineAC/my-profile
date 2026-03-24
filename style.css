@@ -1,0 +1,130 @@
+body{
+  background-color: rgb(230,230,230);
+  color: rgb(30,30,30); 
+   font-family: "Gelasio", serif;
+  font-size: 17px; 
+}
+
+
+
+
+
+
+
+
+h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #c8335c;
+  background: #eee2e4;
+}
+
+h2{
+  color: #bb677e; 
+  font-size: 24px;
+  font-weight: lighter;
+  font-family: "Gelasio", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+}
+ 
+
+a{
+  font-family: "Gelasio", serif;
+  text-decoration: none;
+  background-color: pink;
+  color: #c8335c;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+ color: #c8335c;
+ background-color: white;
+}
+
+
+/*custom design*/
+
+.container{
+	width: 1100px;
+	margin: 40px auto;
+}
+
+.carré{
+  margin: 30px 80px 30px 80px;
+  border-radius: 5px;
+  background-color: #e6cccc;
+  padding: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 20px 1px #a09999;
+  text-align: center;
+}
+
+#image-presentation{
+	  border-radius: 30px
+}
+
+#introduction p{
+	margin-bottom: 40px;  
+}
+
+.btn-pink{
+	background-color: pink;
+	color: #c8335c;
+	padding: 10px 15px 10px 15px; 
+	border-radius: 5px
+}
+
+.btn-pink: hover{
+	background-color: white;
+	color : #c8335c;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: #9c717d;
+}
+
+.list-inline i:hover{
+	font-size: 50px;
+	color: #9b9597;
+}
+
+
+@media (max-width: 760px){
+	.container {    
+		width: 600px; 
+	}
+}
+
+
+@media (max-width: 500px){
+	.container {    
+		width: 400px; 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
